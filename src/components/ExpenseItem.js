@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { TiDelete } from 'react-icons/ti';
 import { AppContext } from '../context/AppContext';
-
+import '../css/Button.css'
 
 const ExpenseItem = (props) => {
     const { dispatch, currency } = useContext(AppContext);
@@ -14,8 +14,7 @@ const ExpenseItem = (props) => {
     };
 
     const increaseAllocation = () => {
-        // You can adjust the increase logic here
-        // For now, let's assume it increases by 10
+       
         const expense = {
             name: props.name,
             cost: 10
@@ -29,7 +28,7 @@ const ExpenseItem = (props) => {
 
     const decreaseAllocation = () => {
     
-        
+
         const expense = {
             name: props.name,
             cost: 10

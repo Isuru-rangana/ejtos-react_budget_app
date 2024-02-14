@@ -1,25 +1,30 @@
-.btn-primary {
-  background-color: blue;
-}
 
-
-.currency-dropdown option:hover {
-  background-color: rgb(147, 228, 153);
-  color: black;
-}
-
-.currency-dropdown option:checked {
-  background-color: white;
-  color: black;
-
-}
-
-.alert.alert-tertiary {
-  background-color: rgb(147, 228, 153);
+.alert-tertiary {
+  background-color: #93E499; 
   color: white;
-  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
-option:hover {
-  background-color: white;
+.section01 {
+  background-color: #FFFFFF; 
+  color: #000000; 
+  border: 2px solid #000000; 
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.section01:hover {
+  background-color: #000000; 
+  color: #FFFFFF; 
+  border-color: #000000;
+}
+
+.section01:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #93E499;
 }
